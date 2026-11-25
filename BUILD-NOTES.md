@@ -1,0 +1,9 @@
+Build notes for the childhood-memory entry.
+
+The bounty asks for one sentence, between 1 and 280 characters, recalling a childhood memory that stirs nostalgia in a grown-up reader. The judge weighs, in order, whether it is a real childhood memory, whether it is grounded in a concrete place, time or sensation, whether it sounds truly lived with small honest detail, whether every word earns its place in a single clean sentence, and whether it leaves a warm ache that lingers.
+
+The brief's own examples lean on a grandmother's kitchen, a summer evening and the smell of fresh rice. I deliberately avoided the kitchen angle because it is the most obvious path and the judge has likely seen it many times. Instead I chose the ice-cream truck at four o'clock in the afternoon: a sound that marks a time of day, bare feet on hot pavement for touch, coins sweating in a small fist for a small honest physical detail, and a child's very specific fear that the truck would drive away on the one day he was slow. That fear is the warm ache — the memory is happy, but it carries the knowledge that those afternoons are gone.
+
+The program is deliberately tiny. It holds the sentence as one constant, checks that its length sits inside the 1 to 280 character gate, and writes it to the output file. There is no network access, no randomness, no reading from anywhere else, so the program writes the same sentence on every run. The entry was counted by hand and by the program itself, and it is 204 characters, a single sentence ending in one full stop.
+
+Files in the repository are the program itself, a readme with the three linked make.fun badges, a MIT license carrying the SPDX identifier line, and the owner file naming the payout wallet. The build was verified by running the program, reading back the output file, counting its characters, and running the kit check.
